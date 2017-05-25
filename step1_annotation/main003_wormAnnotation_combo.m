@@ -2,13 +2,13 @@ clear all force
 clc
 close all;
 %% configuration
-curImgId = 97;
+curImgId = 1;
 numWorm = 5;  % the number of worms required to find by users
 
 flag_using_histeq = false; % true false
 
 radius = 80;
-flag_using_manual = false; % true false
+flag_using_manual = true; % true false
 dataPath = '../dataset_annotated';
 %% annotating the worms
 if flag_using_manual % manually drawing the worm body
